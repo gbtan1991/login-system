@@ -1,0 +1,16 @@
+@import 'reset' , 'config';
+
+body {
+    background-color: $primary;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container{
+    background-color: $white;
+    width: 80dvw;
+    height: 80dvh;
+}
